@@ -117,6 +117,10 @@ All endpoints are hosted at `https://trupricer.app.n8n.cloud`:
 - Secure credential storage in MongoDB
 - HTTPS encryption for all communications
 
+## Running Command
+
+- python -m http.server 8000
+
 ## Deployment
 
 This frontend is deployed as a static site on Render.com. The N8N workflows run independently on N8N Cloud infrastructure, ensuring reliable automation execution.
